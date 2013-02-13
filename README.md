@@ -28,7 +28,7 @@ jQuery function calls can be "chained". This means that it's perfectly valid to 
 
 Anyway, after you have found the new image you want to show, wrap it into jQuery and call
 
-´.hide().fadeIn()´
+`.hide().fadeIn()`
 
 This will first hide it and then make a fade in animation. If you don't hide it first, it will not have a chance to fade in :)
 
